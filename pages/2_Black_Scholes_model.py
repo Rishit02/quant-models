@@ -25,11 +25,9 @@ with st.expander("About the Black-Scholes Model"):
         - **No Arbitrage Opportunities**: There are no opportunities for risk-free profit.
         """
     )
-
-
+    
 st.write(
-    """This demo illustrates how different parameters will affect the
-      options price calculated by the Black-Scholes formula"""
+    """This section caclulates the call price of Eurpoean options using the Black-Scholes formula."""
 )
 
 S = st.number_input("Input current stock price (S)", key="stock_price")
