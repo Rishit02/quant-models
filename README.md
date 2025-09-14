@@ -20,6 +20,7 @@ This interactive Streamlit web app allows users to input parameters related to E
 ## How to Use
 
 1. **Option Greeks Calculation**
+
    - Enter values for:
      - Current price of the underlying asset (S)
      - Strike price (K)
@@ -30,6 +31,7 @@ This interactive Streamlit web app allows users to input parameters related to E
    - The app instantly displays the Greeks: Delta, Gamma, Vega, Theta, and Rho
 
 2. **Black-Scholes Price Calculation**
+
    - Input parameters:
      - Stock price (S)
      - Strike price (K)
@@ -41,7 +43,7 @@ This interactive Streamlit web app allows users to input parameters related to E
 3. **Parameter Sensitivity Analysis**
    - Select which parameter to vary (S, K, or sigma)
    - Input range start, end, and step values
-   - The app plots how the call price changes with that parameter, helping visualize risk sensitivities 
+   - The app plots how the call price changes with that parameter, helping visualize risk sensitivities
 
 ## Installation and Running
 
